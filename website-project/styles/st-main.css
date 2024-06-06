@@ -1,0 +1,250 @@
+.nav a{
+    color: black !important;
+}
+
+
+h1 {
+    color: #0f0049 !important;
+    text-align: center;
+    font-size: 4rem !important;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+h3{
+
+    color: #0f0049 !important;
+    text-align: center;
+
+}
+
+#custom-h1 {
+    color: #000;
+    margin-top: 0;
+    font-size: 3.5rem;
+}
+
+#credit-card-p {
+    font-size: 13px;
+}
+
+p {
+    text-align: center;
+    color: #888c93;
+    margin-top: 24px !important;
+    font-size: 20px;
+}
+
+#email-input {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding-left: 10px;
+    box-shadow: 5px 5px #F3F3F3;
+    border-radius: 50px;
+}
+
+#email-start {
+    border-radius: 50px;
+    background-color: #f63a61;
+}
+
+h2 {
+    margin-top: 100px;
+    text-align: center;
+    color: #0f0049 !important;
+    font-size: 25px !important;
+}
+
+.company {
+    display: flex;
+    justify-content: center;
+}
+
+.company img {
+    margin: 0 50px;
+}
+
+#clickup {
+    width: 107px;
+    height: 26px;
+}
+
+#dropbox {
+    width: 116px;
+    height: 30px;
+}
+
+#segment {
+    width: 125px;
+    height: 35px;
+}
+
+#freshbooks {
+    width: 136px;
+    height: 40px;
+}   
+
+#github {
+    width: 98px;
+    height: 40px;
+}
+
+.about-us{
+    background-color: #0a85ea;
+    width: 100%;
+    height: 800px;
+}
+
+
+#about h2{
+    font-size: 60px !important;
+}
+
+.custom-features{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.custom-feature-cards{
+    width: 280px;
+    height: 280px;
+    background-color: #f6f5f8;
+    border-radius: 10px;
+}
+
+.get-started{
+    background-color: #0a85ea;
+    border-radius: 10px;
+    height: 430px;
+    width: 1300px;
+   
+    
+}
+
+.align-searchbar{
+
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+
+    width: 480px;
+    height: 66px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 50px;
+
+}
+
+.get-started-button{
+    width: 116px;
+    height: 44px;
+    background-color: #ff3a61;
+    border-radius: 50px;
+}
+
+#team{
+    margin-top: 200px;
+    color: #ff3a61;
+
+}
+
+#about{
+    float: left;
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-card{
+
+    width: 280px;
+    height: 280px;
+    
+    
+}
+
+.people-img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.align-people{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img{
+
+    display: flex;
+    justify-content: center;
+    width: 980px;
+    height: 450px;
+    margin-left: 400px;
+
+
+}
+
+
+.about-img img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.join-team{
+
+    width: 1180px;
+    height: 217px;
+    border-radius: 10px;
+    background-color: #F6F5F8;
+}
+
+.join-team h3{
+    float: left;
+}
+
+.join-team p {
+
+    display: inline-flexbox;
+    padding-left: 320px;
+}
+ 
+#join-team-arrow{
+
+    color: #F63A61;
+    font-weight: bold;
+}
+
+article{
+ display: inline;
+}
+
+#article-learn p {
+
+    padding-left: 400px !important;
+}
+
+.questions{
+    background-color: #F6F5F8;
+    width: 100%;
+    height: 740px;
+}
+
+.footer-darkblue{
+
+    background-color: #00063F;
+    width: 100%;
+    height: 580px;
+}
