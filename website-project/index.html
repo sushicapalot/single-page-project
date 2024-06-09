@@ -8,37 +8,37 @@
     <title>Aspire</title>
 </head>
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-          <div class="col-md-3 mb-2 mb-md-0">
-            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-             <img src="./images/logo.png" alt="Aspire logo" height=35px">
-            </a>
-          </div>
-    
-          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary">Products</a></li>
-            <li><a href="#" class="nav-link px-2">Pricing</a></li>
-            <li><a href="#" class="nav-link px-2">Company</a></li>
-            <li><a href="#" class="nav-link px-2">Resources</a></li>
-            <li><a href="#" class="nav-link px-2">Contact</a></li>
-          </ul>
-    
-          <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">Login</button>
-            <button type="button" class="btn btn-primary" class="">Get Started</button>
-          </div>
-        </header>
-      </div>
+
+      <header class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <img src="./images/logo.png" alt="" height="30px">
+          </a>
+        </div>
+      
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" id="custom-a-navbar" class="nav-link px-2">Products</a></li>
+          <li><a href="#" id="custom-a-navbar" class="nav-link px-2">Pricing</a></li>
+          <li><a href="#" id="custom-a-navbar" class="nav-link px-2">Company</a></li>
+          <li><a href="#" id="custom-a-navbar" class="nav-link px-2">Resources</a></li>
+          <li><a href="#" id="custom-a-navbar" class="nav-link px-2">Contact</a></li>
+        </ul>
+      
+        <div class="col-md-3 text-end">
+          <button type="button" id="button-navbar1" class="btn btn-outline-primary me-2">Login</button>
+          <button type="button" id="button-navbar2" class="btn btn-primary">Get Started</button>
+        </div>
+      </header>
+
       <main>
         <h1 class="mt-1">Multipurpose Website Templates</h1>
         <h1 class="text-black">That boost your sales</h1>
         <p class="text-black-50">Empowering Your Financial Journey through Customized Asset Management Services</p>
 
-        <div class="align-searchbar">
-          <div class="search-bar">
-            <p class="text-start ms-3 fs-6 inline">Enter your work email</p>
-          </div>
+
+        <div class="apply-mail">
+          <input type="email" class="apply-mail-input" placeholder="Enter your work email">
+          <button>Get Started</button>
         </div>
 
       <p id="credit-card-p">✅ No credit card required</p>
@@ -56,11 +56,11 @@
       </div>
 
       <div class="about-us mt-5 mb-5">
-        <aside id="about">
+        <div id="about-left">
             <h2 class="text-start ms-5 pt-4  text-white">About our</h2>
             <h2 class="text-start ms-5 text-white">company</h2>
             <p class="text-start ms-5 mt-5 text-white" >Learn More →</p>
-        </aside>
+        </div>
         <article id="article-learn">
           <p class="text-white text-start pt-5 ps-5 fs-6 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -76,8 +76,8 @@
 
         </article>
 
-        <div class="about-img mt-5 ">
-          <img  class="rounded mx-auto d-block "  src="./images/meeting.png" alt="">
+        <div class="about-img">
+          <img  class="about-meet-img"  src="./images/meeting.png" alt="">
         </div>
         
       </div>
@@ -114,11 +114,12 @@
             <h1 class="text-white pt-5">Get started with Aspire today</h1>
             <p class="text-white mb-0  fs-6">We are self-service data analytics software that lets you create visually appealing data </p>
             <p class="text-white mt-0 fs-6 mb-5">visualisations and insightful dashboards in minutes.</p>
-            <div class="align-searchbar">
-              <div class="search-bar">
-                <p class="text-start ms-3 fs-6 inline">Enter your work email</p>
-              </div>
+
+            <div class="apply-mail-2">
+              <input type="email" class="apply-mail-input" placeholder="Enter your work email">
+              <button>Get Started</button>
             </div>
+
             <p class="text-white fs-6"><img src="./images/svg/check2.svg" alt=""> No credit card required</p>
             
         </div>
@@ -190,59 +191,70 @@
       <div class="questions">
         <h1 class="pt-5">Frequently asked questions</h1>
         <p class="fs-5 mt-4">We have put together some commonly asked questions</p>
-  
-      </div>
 
+        <div class="grid-container">
 
-      <div class="footer-darkblue">
-        <div class="container">
-          <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-            <div class="col mb-3">
-              <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-              </a>
-              <p class="text-white">© 2024</p>
-            </div>
+          <div class="QA"><p>Smod tempor incididunt ut labore et dolore</p><img src="./images/svg/caret-down-fill.svg" alt=""></div>
+          <div class="QA"><p>Ut enim ad minim veniam</p><img src="./images/svg/caret-down-fill.svg" alt=""></div>
+          <div class="QA"><p>Quis nostrud exercitation ullamco laboris</p><img src="./images/svg/caret-down-fill.svg" alt=""></div>
+          <div class="QA"><p>Wisi ut aliquip ex ea commodo consequat</p><img src="./images/svg/caret-down-fill.svg" alt=""></div>
+          <div class="QA"><p>Woluptate velit esse cillum dolore eu fugiat nulla</p><img src="./images/svg/caret-down-fill.svg" alt=""></div>
+          <div class="QA"><p>Duis aute irure dolor in reprehenderi</p><img src="./images/svg/caret-down-fill.svg" alt=""></div>
+          <div class="QA"><p>Excepteur sint occaecat cupidatat non proiden</p><img src="./images/svg/caret-down-fill.svg" alt=""></div>
+          <div class="QA"><p>Excepteur sint occaecat cupidatat non proident</p><img src="./images/svg/caret-down-fill.svg" alt=""></div>
         
-            <div class="col mb-3">
-        
-            </div>
-        
-            <div class="col mb-3">
-              <h5 class="text-white">Company</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Jobs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
-              </ul>
-            </div>
-        
-            <div class="col mb-3">
-              <h5 class="text-white">Product</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sales software</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy and security</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Marketplace</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">API</a></li>
-              </ul>
-            </div>
-        
-            <div class="col mb-3">
-              <h5 class="text-white">Help Center</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Community</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Knowledge Base</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Academy</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Support</a></li>
-              </ul>
-            </div>
-          </footer>
         </div>
-      </div>
-      
+        
+  
+        <footer>
+          <div class="darkblue-footer">
+
+            <div class="flex-links">
+              <ul>
+                <h3>Company</h3>
+                <li><a id="footer-link" href="#">About</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+  
+              <ul>
+                <h3>Product</h3>
+                <li><a id="footer-link" href="#">Sales software</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Privacy and security</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">API</a></li>
+              </ul>
+  
+              <ul>
+                <h3>Help Center</h3>
+                <li><a id="footer-link" href="#">Community</a></li>
+                <li><a href="#">Knowledge Base</a></li>
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Docs</a></li>
+                
+              </ul>
+
+            </div>
+
+            <div class="download">
+              <h3>Download</h3>
+              <p>Join millions of people who build a fully integrated sales and maketing solution.</p>
+            </div>
+
+            <div class="footer-line"></div>
+
+            <div class="container">
+              <h3 id="copyright-l" class="fs-6" >Copyright @2023 Aspire. All Rights Reserved.</h3>
+              <h3 id="copyright-r" class="fs-6" >Terms & Conditions ~ Privacy Policy</h3>
+            </div>
+
+          </div>
+
+        </footer>
 
       
       
